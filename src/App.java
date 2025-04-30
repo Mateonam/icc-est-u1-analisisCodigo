@@ -1,10 +1,13 @@
 public class App {
     public static void main(String[] args) {
 
-        MetodosOrdenamiento ordenador = new MetodosOrdenamiento();
-        int[] arregloBurbuja = { 34, 2, 10, 6, 7, 5, 1, 15 };
-        int[] arregloSeleccion = { 34, 2, 10, 6, 7, 5, 1, 15 };
-        int[] arregloInsercion = { 34, 2, 10, 6, 7, 5, 1, 15 };
+        Benchmarking benchmarking = new Benchmarking();
+        
+
+        // MetodosOrdenamiento ordenador = new MetodosOrdenamiento();
+        // int[] arregloBurbuja = { 34, 2, 10, 6, 7, 5, 1, 15 };
+        // int[] arregloSeleccion = { 34, 2, 10, 6, 7, 5, 1, 15 };
+        // int[] arregloInsercion = { 34, 2, 10, 6, 7, 5, 1, 15 };
 
         // Insctucciones:
         // Todas las llamadas a los metodos deberan estar descomentadas y se debera
@@ -17,7 +20,7 @@ public class App {
         /// Anotar en cada metodo el error encontrado y como lo cambio en TEXTO
 
         // Metodo burbujaTradicional
-        int[] arregloBurbujaOrdenado1 = ordenador.burbujaTradicional(arregloBurbuja);
+        /*int[] arregloBurbujaOrdenado1 = ordenador.burbujaTradicional(arregloBurbuja);
         System.out.println(
                 "Resultado burbuja tradicional Metodo 1 : " +
                         java.util.Arrays.toString(arregloBurbujaOrdenado1));
@@ -74,7 +77,7 @@ public class App {
         ordenador.insercionTercero(arregloInsercion);
         System.out.println(
         "Resultado Inserción Metodo 3: " +
-        java.util.Arrays.toString(arregloInsercionOrdenado3));
+        java.util.Arrays.toString(arregloInsercionOrdenado3));*/
 
     }
 }
