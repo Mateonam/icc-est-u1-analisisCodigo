@@ -174,7 +174,7 @@ public class MetodosOrdenamiento {
 
     // Método de inserción con errores
     // Error encontrado: Error al poner j >= 0 en el while, error en el return, en el orden del arreglo, i++ después del for.
-    // Solución: corregir la con dición del while por i >= 0, cambiar < por >, cambiar i++ por i-- y retornar la variable arreglo.
+    // Solución: corregir la con dición del while por i >= 0, cambiar < por >, cambiar i++ por i-- y retornar la variable arreglo.  
     public int[] insercionTercero(int[] arregloOriginal) {
 
         int[] arreglo = Arrays.copyOf(arregloOriginal, arregloOriginal.length);
