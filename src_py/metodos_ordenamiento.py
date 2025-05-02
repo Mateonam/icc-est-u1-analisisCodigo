@@ -21,6 +21,26 @@ class MetodosOrdenamiento:
                     break
         return arreglo
         
+    def shell_sort(self, arr):
+        n = len(arr)
+        gap = n // 2  # Empezamos con un gap grande y lo vamos reduciendo
+
+        while gap > 0:
+            for i in range(gap, n):
+                temp = arr[i]
+                j = i
+
+            # Insertar arr[i] en su posición correcta en el subarreglo ordenado
+                while j >= gap and arr[j - gap] > temp:
+                    arr[j] = arr[j - gap]
+                    j -= gap
+
+                arr[j] = temp   
+            gap //= 2 
+
+
+
+
 
 
     def selection_sort(self, array):
